@@ -33,10 +33,6 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
-  },
-  {
     id: "contact",
     title: "Contact",
   },
@@ -112,61 +108,9 @@ const technologies = [
   },
 ];
 
-const experiences = [
-  {
-    title: "Full-Stack Developer Intern",
-    company_name: "BigHost India Private Limited",
-    icon: bighost, // ✅ remove quotes
-    iconBg: "#383E56",
-    date: "Jul 2024 - Present",
-    points: [
-      "Developing and maintaining full-stack web applications using MERN Stack.",
-      "Collaborating with cross-functional teams including designers and senior developers.",
-      "Implementing responsive designs and optimizing performance.",
-      "Participating in code reviews and contributing to best practices.",
-    ],
-  },
-  {
-    title: "Web Developer Intern",
-    company_name: "Calibers-InfoTech",
-    icon: caliber, // ✅ remove quotes
-    iconBg: "#383E56",
-    date: "Mar 2022 - Oct 2022",
-    points: [
-      "Worked on HTML, CSS, Bootstrap, and PHP.",
-      "Built and maintained responsive websites.",
-      "Enhanced UI/UX for client projects.",
-      "Strengthened foundation in web technologies.",
-    ],
-  },
-];
+const experiences = [];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
+const testimonials = [];
 
 const projects = [
   {
@@ -179,8 +123,8 @@ const projects = [
       { name: "tailwind", color: "pink-text-gradient" },
     ],
     image: carrent,
-    source_code_link: "https://github.com/youknowom/QuickShow",
-    live_demo_link: "https://quick-show-brown.vercel.app/",
+    source_code_link: "#",
+    live_demo_link: "#",
   },
   {
     name: "Resume Builder",
@@ -192,8 +136,8 @@ const projects = [
       { name: "scss", color: "pink-text-gradient" },
     ],
     image: jobit,
-    source_code_link: "https://github.com/youknowom/resume-builder",
-    live_demo_link: "https://resume-builder-youknowom.vercel.app/", // 👈 add this
+    source_code_link: "#",
+    live_demo_link: "#", // 👈 add this
   },
   {
     name: "Crowd Shield",
@@ -205,8 +149,8 @@ const projects = [
       { name: "css", color: "pink-text-gradient" },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/youknowom/trip-guide",
-    live_demo_link: "https://safety-stream-ai.vercel.app/", // 👈 add this
+    source_code_link: "#",
+    live_demo_link: "#", // 👈 add this
   },
 ];
 

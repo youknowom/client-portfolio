@@ -59,8 +59,8 @@ const Navbar = () => {
         >
           {/* <img src={logo} alt="logo" className="w-9 h-9 object-contain" /> */}
           <p className="text-white text-[18px] font-bold cursor-pointer flex ">
-            Omkar &nbsp;
-            <span className="sm:block hidden"> | youknowom</span>
+            ashu &nbsp;
+            <span className="sm:block hidden"> | Portfolio</span>
           </p>
         </Link>
 
@@ -81,7 +81,7 @@ const Navbar = () => {
           {/* Social Icons */}
           <li>
             <a
-              href="https://www.linkedin.com/in/omkar-bagul/"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
               className="text-secondary hover:text-white text-[22px]"
@@ -91,7 +91,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="https://github.com/youknowom"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
               className="text-secondary hover:text-white text-[22px]"
@@ -102,7 +102,7 @@ const Navbar = () => {
           {/* X (Twitter) */}
           <li>
             <a
-              href="https://x.com/omkaar_jsx"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
               className="text-secondary hover:text-white text-[22px]"
@@ -112,7 +112,7 @@ const Navbar = () => {
           </li>
 
           {/* Resume Button */}
-          <li>
+          {/* <li>
             <motion.a
               href="/resume.pdf" // <-- place your resume file in public folder
               download
@@ -122,7 +122,7 @@ const Navbar = () => {
             >
               Download Resume
             </motion.a>
-          </li>
+          </li> */}
         </ul>
 
         {/* Mobile Menu Toggle */}
@@ -159,7 +159,7 @@ const Navbar = () => {
               {/* Mobile Socials */}
               <li className="flex gap-3 text-[20px]">
                 <a
-                  href="https://www.linkedin.com/in/omkar-bagul/"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-secondary hover:text-white"
@@ -167,7 +167,7 @@ const Navbar = () => {
                   <FaLinkedin />
                 </a>
                 <a
-                  href="https://github.com/youknowom"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-secondary hover:text-white"
@@ -177,7 +177,7 @@ const Navbar = () => {
               </li>
 
               {/* Mobile Resume */}
-              <li>
+              {/* <li>
                 <motion.a
                   href="/resume.pdf"
                   download
@@ -187,7 +187,7 @@ const Navbar = () => {
                 >
                   Download Resume
                 </motion.a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

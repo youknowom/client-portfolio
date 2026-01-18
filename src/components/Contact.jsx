@@ -37,12 +37,12 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "ashu",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "ashu@example.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY,
       )
       .then(
         () => {
@@ -60,7 +60,7 @@ const Contact = () => {
           console.error(error);
 
           alert("Ahh, something went wrong. Please try again.");
-        }
+        },
       );
   };
 
@@ -121,29 +121,6 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
-
-        {/* Social Links */}
-        <div className="mt-8 flex flex-col gap-3 text-white">
-          <p className="font-medium">Or connect with me on:</p>
-          <div className="flex gap-6">
-            <a
-              href="https://www.linkedin.com/in/omkar-bagul/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-blue-400"
-            >
-              🔗 LinkedIn
-            </a>
-            <a
-              href="https://x.com/omkaar_jsx"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-gray-400"
-            >
-              X (Twitter)
-            </a>
-          </div>
-        </div>
       </motion.div>
 
       <motion.div
